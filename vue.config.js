@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/news-homepage/t/',
+    publicPath: '/news-homepage/',
   }
