@@ -8,7 +8,7 @@
 
 <style scoped>
 section {
-    background-color: var(--softOrange);
+    
 }
 
 

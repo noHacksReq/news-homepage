@@ -1,9 +1,6 @@
 @import './base.css';
 
-:root {
-  --color-background: var(--vt-c-black);
-  --softOrange: var(--red);
-}
+
 
 #app {
   max-width: 1280px;
