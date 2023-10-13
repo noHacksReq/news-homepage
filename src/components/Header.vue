@@ -87,7 +87,7 @@ h3 {
   .burger  {
     display: inherit;
     padding-top: 0;
-    height: 9vh;
+    height: 13vh;
     width: 16vw;
   }
 }
