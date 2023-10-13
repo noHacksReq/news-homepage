@@ -6,7 +6,15 @@ defineProps({
 
 <template>
   <div class="header">
-    <h1>Im the header now!</h1>
+    <img id="logo" src="assets\images\logo.svg" />
+    <ul class="topNav">
+      <li class="navItem">Home</li>
+      <li class="navItem">News</li>
+      <li class="navItem">Popular</li>
+      <li class="navItem">Trending</li>
+      <li class="navItem">Categories</li>
+      <li ><img class="burger" src="assets\images\icon-menu.svg" /></li>
+    </ul>
   </div>
 </template>
 
@@ -22,16 +30,65 @@ h3 {
   font-size: 1.2rem;
 }
 
+#logo {
+  text-align: center;
+  padding-top: 3%;
+  height: 20vh;
+}
+
 .header {
-  background-color: var(--softOrange);
+  
+  width: 100%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  line-height: 50px;
+}
+
+.topNav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  
+  padding-top: 3%;
+  
+  line-height: 50px;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.navItem {
+  display: inherit;
+  font-weight: 400;
+  margin-left: 4vw;
+  
+}
+
+.burger {
+  display: none;
 }
 
 
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
+
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+  #logo {
+    height: 15vh;
+    vertical-align: middle;
+  }
+  .navItem {
+    display: none;
+  }
+  .burger  {
+    display: inherit;
+    padding-top: 0;
+    height: 9vh;
+    width: 16vw;
   }
 }
 </style>
