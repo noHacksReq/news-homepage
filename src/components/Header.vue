@@ -8,11 +8,11 @@ defineProps({
   <div class="header">
     <img id="logo" src="assets\images\logo.svg" />
     <ul class="topNav">
-      <li class="navItem">Home</li>
-      <li class="navItem">News</li>
-      <li class="navItem">Popular</li>
-      <li class="navItem">Trending</li>
-      <li class="navItem">Categories</li>
+      <li class="navItem"><a href="####">Home</a></li>
+      <li class="navItem"><a href="####">News</a></li>
+      <li class="navItem"><a href="####">Popular</a></li>
+      <li class="navItem"><a href="####">Trending</a></li>
+      <li class="navItem"><a href="####">Categories</a></li>
       <li ><img class="burger" src="assets\images\icon-menu.svg" /></li>
     </ul>
   </div>
@@ -34,6 +34,17 @@ h3 {
   text-align: center;
   padding-top: 3%;
   height: 20vh;
+}
+
+a {
+  color: var(--darkGrayishBlue);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  color: var(--veryDarkBlue);
+  font-weight: 700;
 }
 
 .header {
@@ -62,7 +73,7 @@ h3 {
 
 .navItem {
   display: inherit;
-  font-weight: 400;
+  
   margin-left: 4vw;
   
 }
