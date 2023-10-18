@@ -1,7 +1,5 @@
 <script setup>
-defineProps({
-  
-})
+
 </script>
 
 <template>
@@ -33,7 +31,7 @@ h3 {
 #logo {
   text-align: center;
   padding-top: 3%;
-  height: 20vh;
+  height: 100px;
 }
 
 a {
@@ -62,11 +60,11 @@ a:hover {
   list-style: none;
   display: flex;
   flex-direction: row;
-  
+  min-width: 51vw;
   padding-top: 3%;
   
   line-height: 50px;
-  justify-content: space-between;
+  justify-content: flex-end;
   text-align: center;
 
 }
@@ -99,7 +97,7 @@ a:hover {
     display: inherit;
     padding-top: 0;
     height: 13vh;
-    width: 16vw;
+    width: 70%;
   }
 }
 </style>
