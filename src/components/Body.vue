@@ -84,7 +84,35 @@
 
 
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+    .container {
+        max-width: 90vw;
+        padding: 0;
+    }
+    .mainBody {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding-left: 0;
+    }
+    
+    .mainImg {
+        height: 400px;
+    }
+
+    .mainTitle {
+        width: 100%;
+    }
+
+    .mainCont {
+        padding: 0;
+    }
+
+    #readMore-btn {
+        width: 66%;
+    }
+
 
 }
 </style>

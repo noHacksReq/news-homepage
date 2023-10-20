@@ -95,6 +95,7 @@ a:hover {
   }
   .burger  {
     display: inherit;
+    margin-left: 64px;
     padding-top: 0;
     height: 13vh;
     width: 70%;
