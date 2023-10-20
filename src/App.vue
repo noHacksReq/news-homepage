@@ -35,7 +35,15 @@ main {
   
 }
 
-@media (min-width: 1024px) {
- 
+@media screen and (min-width: 0px) and (max-width: 600px) {
+ header {
+  width: 90vw;
+ }
+
+ main {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+ }
 }
 </style>
