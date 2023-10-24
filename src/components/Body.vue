@@ -29,7 +29,6 @@
 }
 .mainImg {
     max-width: 100%;
-    
 }
 
 .mainBody {
@@ -41,13 +40,11 @@
     margin-bottom: 25px;
     margin-top: 15px;
 }
-
 .mainTitle {
     color: var(--veryDarkBlue);
     font-size: 50px;
     font-weight: 800;
 }
-
 .mainCont {
     display: flex;
     flex-direction: column;
@@ -55,7 +52,6 @@
     padding-right: 0;
     padding-bottom: 5vh;
     padding-left: 20vw;
-    
     line-height: 2em;
 }
 
@@ -79,15 +75,14 @@
 #readMore-btn:hover {
     background-color: var(--softOrange);
     cursor: pointer;
-    
 }
 
 
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
-
+@media screen and (min-width: 0px) and (max-width: 375px) {
     .container {
         max-width: 90vw;
+        margin-right: 1%;
         padding: 0;
     }
     .mainBody {
@@ -112,7 +107,5 @@
     #readMore-btn {
         width: 66%;
     }
-
-
 }
 </style>
