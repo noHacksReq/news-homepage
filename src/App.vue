@@ -1,5 +1,5 @@
 <script setup>
-//import HelloWorld from './components/HelloWorld.vue'
+
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import SideBar from './components/SideBar.vue'
@@ -28,6 +28,7 @@ import Footer from './components/Footer.vue'
 body {
   display: flex;
   flex-direction: column;
+  background-color: var(--red);
 }
 main {
   display: flex;

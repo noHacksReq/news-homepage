@@ -70,7 +70,7 @@
     background-color: var(--softRed);
     color: var(--offWhite);
     padding: 15px;
-    margin-top: 6%;
+    margin-top: 27%;
     font-family: 'Inter', sans-serif;
     font-size: 1.2em;
     border: none;
