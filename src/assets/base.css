@@ -11,9 +11,7 @@
 }
 
 
-*{
-  outline: 1px solid red;
-}
+
 
 *,
 *::before,
@@ -29,11 +27,11 @@ body {
 
   display: flex;
   flex-direction: column;
-  /*width: 100vw; */
+  
 
   padding:  5%;
 
   font-family: 'Inter', sans-serif;
-  background-color: var(--offWhite);
+  background-color: var(--red);
 
 }

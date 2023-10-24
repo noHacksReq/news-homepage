@@ -1,10 +1,12 @@
 @import './base.css';
 
-
+body {
+  background-color: var(--offWhite);
+}
 
 #app {
   
-
+  
   font-weight: normal;
 }
 
