@@ -84,7 +84,7 @@ a:hover {
 
 
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 375px) {
 
   #logo {
     height: 15vh;

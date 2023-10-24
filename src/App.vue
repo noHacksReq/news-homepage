@@ -9,7 +9,6 @@ import Footer from './components/Footer.vue'
 <template class="main">
   <header>
     <Header />
-    
   </header>
 
   <main>
@@ -28,15 +27,14 @@ import Footer from './components/Footer.vue'
 body {
   display: flex;
   flex-direction: column;
-  background-color: var(--red);
-}
+  }
+
 main {
   display: flex;
   flex-direction: row;
-  
-}
+  }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 375px) {
  header {
   width: 90vw;
  }
