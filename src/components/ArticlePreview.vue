@@ -38,9 +38,7 @@ defineProps({
 <style scoped>
 
 
-.articles {
-  
-}
+
 
 .articleList {
   display: flex;
