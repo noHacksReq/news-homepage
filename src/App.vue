@@ -3,7 +3,7 @@
 import Header from './components/Header.vue'
 import Body from './components/Body.vue'
 import SideBar from './components/SideBar.vue'
-import Footer from './components/Footer.vue'
+import ArticlePreview from './components/ArticlePreview.vue'
 </script>
 
 <template class="main">
@@ -15,9 +15,9 @@ import Footer from './components/Footer.vue'
     <Body />
     <SideBar />
   </main>
-  <footer>
-    <Footer />
-  </footer>
+ 
+    <ArticlePreview />
+  
   
 </template>
 

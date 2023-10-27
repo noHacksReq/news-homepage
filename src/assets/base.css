@@ -10,9 +10,6 @@
     --veryDarkBlue: hsl(240, 100%, 5%);
 }
 
-
-
-
 *,
 *::before,
 *::after {
@@ -23,15 +20,13 @@
 
 body {
   min-height: 100vh;
+  min-width: 800px;
   font-size: 15px;
 
   display: flex;
   flex-direction: column;
-  
-
   padding:  5%;
-
   font-family: 'Inter', sans-serif;
-  background-color: var(--red);
+  background-color: var(--offWhite);
 
 }
