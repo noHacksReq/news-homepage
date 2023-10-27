@@ -80,10 +80,6 @@ a:hover {
   display: none;
 }
 
-
-
-
-
 @media screen and (min-width: 0px) and (max-width: 375px) {
 
   #logo {
