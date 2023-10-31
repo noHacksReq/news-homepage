@@ -5,7 +5,7 @@
 <template>
   <div class="header">
     
-    <img id="logo" src="assets\images\logo.svg" alt="logo" />
+    <img id="logo" src="public\logo.svg" alt="logo" />
   
     <ul class="topNav">
       <li class="navItem"><a href="####">Home</a></li>
