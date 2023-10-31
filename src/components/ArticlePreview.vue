@@ -82,6 +82,12 @@ import gaming from "/public/image-gaming-growth.jpg";
  }
 
 
-@media (min-width: 1024px) {
+ @media screen and (min-width: 0px) and (max-width: 375px) {
+
+  .articleList {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+  }
 }
 </style>
