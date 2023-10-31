@@ -30,3 +30,9 @@ body {
   background-color: var(--offWhite);
 
 }
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  body, #app{
+    min-width: 375px;
+  } 
+}
