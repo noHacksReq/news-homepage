@@ -1,11 +1,12 @@
 <script setup>
-
+import logoImg from "/public/logo.svg";
+import burgerIcon from "/public/icon-menu.svg";
 </script>
 
 <template>
   <div class="header">
     
-    <img id="logo" src="public\logo.svg" alt="logo" />
+    <img id="logo" :src="logoImg" alt="logo" />
   
     <ul class="topNav">
       <li class="navItem"><a href="####">Home</a></li>
@@ -13,7 +14,7 @@
       <li class="navItem"><a href="####">Popular</a></li>
       <li class="navItem"><a href="####">Trending</a></li>
       <li class="navItem"><a href="####">Categories</a></li>
-      <li ><img class="burger" src="assets\images\icon-menu.svg" /></li>
+      <li ><img class="burger" :src="burgerIcon" /></li>
     </ul>
   </div>
 </template>
