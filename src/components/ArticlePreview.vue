@@ -7,7 +7,7 @@ defineProps({
 <template>
   <div class="articles">
     <ul class="articleList">
-      <li class="artilecPrev"><img class="prevImg" src="assets\images\image-retro-pcs.jpg"
+      <li class="artilecPrev"><img class="prevImg" src="public\image-retro-pcs.jpg"
         alt="Retro PCs">
         <div class="prevCont">
           <h1 class="prevNum">01</h1>
@@ -15,7 +15,7 @@ defineProps({
           <p class="prevArtCont">What happens when old PCs are given modern upgrades?</p>
         </div>
       </li>
-      <li class="artilecPrev"><img class="prevImg" src="assets\images\image-top-laptops.jpg"
+      <li class="artilecPrev"><img class="prevImg" src="public\image-top-laptops.jpg"
         alt="Top 10 Laptops">
         <div class="prevCont">
           <h1 class="prevNum">02</h1>
@@ -23,7 +23,7 @@ defineProps({
           <p class="prevArtCont">Our best pics for various needs and budgets.</p>
         </div>
       </li>
-      <li class="artilecPrev"><img class="prevImg" src="assets\images\image-gaming-growth.jpg"
+      <li class="artilecPrev"><img class="prevImg" src="public\image-gaming-growth.jpg"
         alt="The Growth of Gaming">
         <div class="prevCont">
           <h1 class="prevNum">03</h1>

@@ -6,7 +6,7 @@
     <main class="container">
         <img
         class="mainImg"
-         src="assets\images\image-web-3-desktop.jpg" alt="web 3 Image">
+         src="public\image-web-3-desktop.jpg" alt="web 3 Image">
         <section class="mainBody">
             <h1 class="mainTitle">The Bright Future of Web 3.0?</h1>
             <div class="mainCont">
